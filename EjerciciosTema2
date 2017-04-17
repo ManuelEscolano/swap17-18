@@ -1,0 +1,84 @@
+********************************************************
+
+Ejercicio T2.1:
+Calcular la disponibilidad del sistema si tenemos dos 
+réplicas de cada elemento (en total 3 elementos en cada 
+subsistema)
+
+Web: 99.949375% 
+Application: 99.99%
+Database: 99.9999999999%
+DNS: 99.999984%
+Firewall: 99.949375%
+Switch: 99.999999%
+Data Center: 99.999999%
+ISP: 99.999375%
+
+Disponibilidad total: 99.8875%
+
+***************************************************************
+
+Ejercicio T2.2:
+Buscar frameworks y librerías para diferentes lenguajes que 
+permitan hacer aplicaciones altamente disponibles con 
+relativa facilidad. 
+Como ejemplo, examina PM2 
+https://github.com/Unitech/pm2
+que sirve para administrar clústeres de NodeJS
+
+
+
+[1]
+
+***************************************************************
+
+Ejercicio T2.3: 
+¿Cómo analizar el nivel de carga de cada uno de los 
+subsistemas en el servidor? 
+
+	*Pingdom Tools: Un referente en cuanto a análisis de sitios web ya que revisa el peso y la carga de cada uno de los elementos que
+ 	 componen tales sitios y genera un colorido reporte en forma de cascada que permite tomar medidas específicas sin mayores conocimientos 
+	 técnicos. De paso otorga una puntuación general de 1 a 100 en comparación a otros sitios.
+	
+	*GTMetrix: GTMetrix califica de la A a la F, junto a una comparación porcentual respecto al promedio obtenido por otros sitios web, la 
+	 velocidad de carga de decenas de ítems (incluyendo resultados en la escala de análisis de YSlow) y, al igual que Pingdom Tools, los 	
+	 presenta alternativamente en un diagrama de cascada.
+
+	*Google Analytics: Google incluye en su arsenal de herramientas varias opciones de seguimiento de los tiempos de carga. Se agrupan en 
+	 la opción Velocidad del sitio de la categoría Contenido en la barra lateral izquierda. Vale revisar sus diferentes diagramas 
+	 interactivos como los motionCharts y los Gráficos de visitas por ubicación en la subsección Tiempos de página. 
+	
+	[2]
+
+***************************************************************
+
+Ejercicio T2.4: 
+-Buscar ejemplos de balanceadores software y hardware (productos comerciales). 
+
+	*Software: Los balanceadores más conocidos son HAProxy y Nginx
+	*Hardware: Los balanceadores más conocidos entre otros son Linux Virtual Servers, Pound, Pen ó AppDirector OnDemand de la compañía
+               Radware.
+	[3]
+-Buscar productos comerciales para servidores de aplicaciones. 
+
+	*WebLogic de Oracle.
+	*WebSphere de IBM.
+	*TomEE de Apache.
+	[3,5]
+-Buscar productos comerciales para servidores de almacenamiento.
+
+	*Dell Compellent FS8600.[5]
+	*HPE Hyper Converged Systems.[6]
+
+Referencias:
+
+[1]: https://github.com/Unitech/pm2/tree/master/lib
+[2]: https://wwwhatsnew.com/2013/07/11/medir-velocidad-carga-sitio-web/
+[3]: https://unpocodejava.wordpress.com/2013/07/03/que-es-un-balanceador-de-carga-que-es-haproxy/ 
+[4]: http://www.dell.com/es/empresas/p/dell-compellent-fs8600/pd
+[5]: https://www.hpe.com/es/es/integrated-systems/hyper-converged.html
+
+
+
+
+
