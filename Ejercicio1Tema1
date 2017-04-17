@@ -1,0 +1,26 @@
+***********************************************************
+Buscar información sobre las tareas o servicios web para los 
+que se usan más los programas que comentamos al 
+principio de la sesión: 
+-apache    -thttpd
+-nginx	   -node.js
+-cherokee
+***********************************************************
+
+- Apache:  Apache nos permite configurar un Hosting Virtual basado en IPs o en nombres, es decir, tener varios sitios web en un mismo equipo (por ejemplo: nombreweb1.com, nombreweb2.com,….) o como indicábamos, establecer distintos niveles de control de acceso a la información incluyendo el soporte a cifrado SSL (Secure Sockets Layer) utilizando protocolo seguro HTTPS (Hypertext Transfer Protocol Secure). [1]
+
+- Nginx:  Se trata de un servidor web/proxy  completamente inverso, que tiene como principal característica ser sumamente ligero y veloz (servidor web de alto rendimiento). Puede trabajar como un proxy para correo electrónico o e-mail del tipo IMAP/POP3.Eun software libre y multiplataforma distribuido bajo licencia BSD (Berkeley Software Distribution) simplificada, lo que nos permite trabajar sin tener que realizar pago alguno por licencia de funcionamiento. [2]
+
+- Cherokee:  Mejora notablemente el rendimiento ofrecido por el más usado (Apache HTTPD) soportando más usuarios concurrentes, aceptando más peticiones por segundo y consumiendo menos memoria, aunque no tenga toda la versatilidad de un servidor Apache HTTPD pero para la mayoría de los escenarios es más que suficiente. Entre las caracteristicas mas destacable se encuentra la de sctualizaciones sin parada del servicio, que puede ser muy importante para algunos servicios que no pueden permitirse dejar de dar servicio ningún segundo. [3]
+
+- Thttpd:   Thttpd es un servidor HTTP simple, pequeño, rápido y seguro. No tiene muchas características especiales, pero es suficiente para la mayoría de los usos de la web, es tan rápido como los mejores servidores completos (Apache, NCSA, Netscape), y tiene una característica extremadamente útil (URL- Tráfico de estrangulación) que ningún otro servidor tiene actualmente. Para mas información sobre las herramientas que nos proporciona Thttpd consultar: [4].
+
+- Node.js:  
+
+Referencias 
+[1]: http://www.digitallearning.es/blog/apache-servidor-web-configuracion-apache2-conf/
+[2]: http://culturacion.com/que-es-nginx/
+[3]: http://elblogdepicodev.blogspot.com.es/2011/05/servidor-web-ligero-cherokee.html
+[4]: https://translate.google.es/translate?hl=es&sl=en&u=http://acme.com/software/thttpd/thttpd_man.html&prev=search
+
+
